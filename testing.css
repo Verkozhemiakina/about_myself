@@ -5,12 +5,17 @@
 }
 
 .indent {
-    margin-left: 100px;
-    margin-right: 109px;
+    padding-left: 100px;
+    padding-right: 109px;
+}
+
+.wrapper {
+    max-width: 1231px;
+    margin: 0 auto;
 }
 
 .header {
-    border: 1px solid #000; 
+    /* border: 1px solid #000;  */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,20 +23,19 @@
 
 .header_nav
 {
-    border: 1px solid #1b04e6; 
+    border: 1px solid #1b04e6;
 }
 
 .header_menu-list {
-    border: 1px solid #d81c1c; 
+    min-width: 47vw;
+    /* border: 1px solid #d81c1c;  */
     display: flex;
     list-style: none;
     justify-content: center;
-    gap: 40px;
-    
+    gap: 12vh;
 }
 
 .header_menu-item {
-    
     border: 1px solid #000; 
     padding: 3px;
 }
