@@ -1,0 +1,182 @@
+<svg width="1440" height="5200" viewBox="0 0 1440 5200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="5200" fill="#F1F4F7"/> <rect y="1100" width="1440" height="1000" fill="url(#grad1)"/> <rect y="2100" width="1440" height="1000" fill="url(#grad2)"/> <rect y="3100" width="1440" height="1000" fill="url(#grad3)"/> <rect y="4100" width="1440" height="1000" fill="url(#grad4)"/> <defs>
+    <linearGradient id="grad1" x1="720" y1="1100" x2="720" y2="2100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F4F7"/> <stop offset="0.5" stop-color="#E8B88C"/> <stop offset="1" stop-color="#D8A697"/> </linearGradient>
+    <linearGradient id="grad2" x1="720" y1="2100" x2="720" y2="3100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8A697"/>
+      <stop offset="0.5" stop-color="#E8B88C"/>
+      <stop offset="1" stop-color="#F1F4F7"/>
+    </linearGradient>
+    <linearGradient id="grad3" x1="720" y1="3100" x2="720" y2="4100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F4F7"/>
+      <stop offset="0.5" stop-color="#D8A697"/>
+      <stop offset="1" stop-color="#F1F4F7"/>
+    </linearGradient>
+    <linearGradient id="grad4" x1="720" y1="4100" x2="720" y2="5100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F4F7"/>
+      <stop offset="0.5" stop-color="#E8B88C"/>
+      <stop offset="1" stop-color="#2C2F33"/> </linearGradient>
+  </defs>
+
+  <text fill="#2C2F33" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="24" font-weight="bold" letter-spacing="0.05em"><tspan x="100" y="65">VERONIKA.</tspan></text>
+  <text fill="#2C2F33" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="16" font-weight="500">
+    <tspan x="420" y="63">обо мне</tspan>
+    <tspan x="620" y="63">навыки</tspan>
+    <tspan x="820" y="63">увлечения</tspan>
+  </text>
+  <rect x="1160" y="35" width="180" height="50" rx="25" fill="#6A8D92"/>
+  <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="16" font-weight="600"><tspan x="1205" y="66">Связаться</tspan></text>
+
+  <rect x="800" y="200" width="540" height="680" rx="40" fill="#D9D9D9"/>
+  <text fill="#2C2F33" font-family="Inter" font-size="56" font-weight="800"><tspan x="100" y="350">Привет, я будущий</tspan><tspan x="100" y="420" fill="#6A8D92">фронтенд-разработчик</tspan></text>
+  <text fill="#6A8D92" font-family="Inter" font-size="32" font-weight="600"><tspan x="100" y="500">Давай знакомиться!</tspan></text>
+  <text fill="#2C2F33" font-family="Inter" font-size="20" font-weight="400" line-height="1.5">
+    <tspan x="100" y="560">Сейчас я изучаю html и css. Добро пожаловать</tspan>
+    <tspan x="100" y="590">на мою страницу!</tspan>
+    <tspan x="100" y="650" font-weight="700" fill="#D8A697">P.S. Я создала ее сама</tspan>
+  </text>
+  <rect x="800" y="200" width="540" height="680" rx="40" fill="#D9D9D9"/>
+  <text fill="#2C2F33" font-family="Inter" font-size="16" font-style="italic"><tspan x="840" y="860">[Главное фото]</tspan></text>
+
+  <text fill="#2C2F33" font-family="Inter" font-size="40" font-weight="bold"><tspan x="100" y="1050">Что я уже умею</tspan></text>
+  
+  <rect x="100" y="1120" width="400" height="200" rx="20" fill="white" fill-opacity="0.6"/>
+  <text x="140" y="1170" fill="#6A8D92" font-family="Inter" font-size="24" font-weight="bold">Linux</text>
+  <text x="140" y="1210" fill="#2C2F33" font-family="Inter" font-size="16"><tspan x="140" y="1210">Базовые команды,</tspan><tspan x="140" y="1235">работа в терминале</tspan></text>
+
+  <rect x="520" y="1120" width="400" height="200" rx="20" fill="white" fill-opacity="0.6"/>
+  <text x="560" y="1170" fill="#6A8D92" font-family="Inter" font-size="24" font-weight="bold">Git</text>
+  <text x="560" y="1210" fill="#2C2F33" font-family="Inter" font-size="16"><tspan x="560" y="1210">Контроль версий,</tspan><tspan x="560" y="1235">основные команды</tspan></text>
+
+  <rect x="940" y="1120" width="400" height="200" rx="20" fill="white" fill-opacity="0.6"/>
+  <text x="980" y="1170" fill="#6A8D92" font-family="Inter" font-size="24" font-weight="bold">GitHub</text>
+  <text x="980" y="1210" fill="#2C2F33" font-family="Inter" font-size="16"><tspan x="980" y="1210">Хостинг репозиториев,</tspan><tspan x="980" y="1235">удаленная работа</tspan></text>
+
+  <rect x="100" y="1340" width="400" height="200" rx="20" fill="white" fill-opacity="0.6"/>
+  <text x="140" y="1390" fill="#6A8D92" font-family="Inter" font-size="24" font-weight="bold">HTML5</text>
+  <text x="140" y="1430" fill="#2C2F33" font-family="Inter" font-size="16"><tspan x="140" y="1430">Семантическая верстка</tspan><tspan x="140" y="1455">и структура</tspan></text>
+
+  <rect x="520" y="1340" width="400" height="200" rx="20" fill="white" fill-opacity="0.6"/>
+  <text x="560" y="1390" fill="#6A8D92" font-family="Inter" font-size="24" font-weight="bold">CSS3</text>
+  <text x="560" y="1430" fill="#2C2F33" font-family="Inter" font-size="16"><tspan x="560" y="1430">Flexbox, Grid, анимации</tspan><tspan x="560" y="1455">и стили</tspan></text>
+
+  <rect x="940" y="1340" width="400" height="200" rx="20" fill="white" fill-opacity="0.6"/>
+  <text x="980" y="1390" fill="#6A8D92" font-family="Inter" font-size="24" font-weight="bold">Адаптивность</text>
+  <text x="980" y="1430" fill="#2C2F33" font-family="Inter" font-size="16"><tspan x="980" y="1430">Media queries,</tspan><tspan x="980" y="1455">mobile-first подход</tspan></text>
+
+  <text fill="#2C2F33" font-family="Inter" font-size="40" font-weight="bold"><tspan x="100" y="1700">Мой график обучения</tspan></text>
+  <rect x="100" y="1750" width="1240" height="300" rx="30" fill="white"/>
+  <line x1="300" y1="1750" x2="300" y2="2050" stroke="#E5EBED" stroke-width="2"/>
+  <line x1="700" y1="1750" x2="700" y2="2050" stroke="#E5EBED" stroke-width="2"/>
+  <line x1="1000" y1="1750" x2="1000" y2="2050" stroke="#E5EBED" stroke-width="2"/>
+  <path d="M100 1820H1340" stroke="#E5EBED" stroke-width="2"/> <text fill="#6A8D92" font-family="Inter" font-size="18" font-weight="bold">
+    <tspan x="150" y="1800">День</tspan>
+    <tspan x="350" y="1800">Тема</tspan>
+    <tspan x="750" y="1800">Часы</tspan>
+    <tspan x="1050" y="1800">Статус</tspan>
+  </text>
+  <text fill="#2C2F33" font-family="Inter" font-size="18">
+    <tspan x="150" y="1870">Пн - Вт</tspan><tspan x="350" y="1870">Основы методологии БЭМ</tspan><tspan x="750" y="1870">4ч</tspan><tspan x="1050" y="1870" fill="#4CAF50">✅ Выполнено</tspan>
+    <tspan x="150" y="1930">Ср - Чт</tspan><tspan x="350" y="1930">Продвинутый CSS и анимации</tspan><tspan x="750" y="1930">6ч</tspan><tspan x="1050" y="1930" fill="#D8A697">⏳ В процессе</tspan>
+    <tspan x="150" y="1990">Пт - Сб</tspan><tspan x="350" y="1990">Работа с макетами в Figma (навык)</tspan><tspan x="750" y="1990">5ч</tspan><tspan x="1050" y="1990" fill="#2C2F33">📅 Планируется</tspan>
+  </text>
+
+  <text fill="#2C2F33" font-family="Inter" font-size="40" font-weight="bold"><tspan x="100" y="2200">Мой путь в IT</tspan></text>
+  <text fill="#2C2F33" font-family="Inter" font-size="18" line-height="1.8">
+    <tspan x="100" y="2260">Мой путь начался не с кода, а с желания созидать. Я всегда смотрела на сайты как на цифровое искусство, но долго не решалась заглянуть «под капот». Тот момент стал отправной точкой. </tspan>
+    <tspan x="100" y="2295">Всё изменилось, когда я написала свои первые строчки HTML. Я поняла, что фронтенд — это идеальный баланс между логикой и эстетикой, который я так долго искала.</tspan>
+    <tspan x="100" y="2330">Процесс обучения стал для меня ежедневным ритуалом, полюбила это состояние «потока», когда сложная задача наконец решается после десятка попыток.</tspan>
+    
+    <tspan x="100" y="2385">Были моменты, когда CSS не слушался, а блоки разъезжались, но именно это научило меня терпению и внимательности к деталям. Упорство — ключ к успеху.</tspan>
+    <tspan x="100" y="2420">Я не просто учу синтаксис, я учусь думать как разработчик, структурировать информацию и находить самые элегантные решения для интерфейсов.</tspan>
+    <tspan x="100" y="2455">Этот сайт — маленькая победа и доказательство того, что я на верном пути.</tspan>
+    
+    <tspan x="100" y="2510">Впереди еще много неизведанного: от логики JavaScript до сложных фреймворков. Впереди еще много неизведанного. Цель ясна.</tspan>
+    <tspan x="100" y="2545">Цель: стать профессионалом и создавать полезные, красивые веб-приложения.</tspan>
+  </text>
+  <text fill="#6A8D92" font-family="Inter" font-size="24" font-weight="bold"><tspan x="100" y="2680">Что мне осталось изучить:</tspan></text>
+  <text fill="#2C2F33" font-family="Inter" font-size="18">
+    <tspan x="130" y="2720">• JavaScript TypeScript</tspan>
+    <tspan x="130" y="2750">• Фреймворки Angular, React, Vue.js</tspan>
+    <tspan x="130" y="2780">• Python</tspan>
+  </text>
+  <rect x="100" y="2850" width="1240" height="250" rx="20" fill="#2C2F33"/>
+  <text fill="#D8A697" font-family="Courier New" font-size="20">
+    <tspan x="140" y="2910">const veronika = {</tspan>
+    <tspan x="160" y="2940">  status: "Future Frontend Developer",</tspan>
+    <tspan x="160" y="2970">  skills: ["HTML", "CSS", "Design"],</tspan>
+    <tspan x="160" y="3000">  goal: "Build awesome web apps"</tspan>
+    <tspan x="140" y="3030">};</tspan>
+    <tspan x="140" y="3060">console.log(veronika.status);</tspan>
+  </text>
+
+  <text fill="#2C2F33" font-family="Inter" font-size="40" font-weight="bold"><tspan x="100" y="3300">Увлечения</tspan></text>
+  <rect x="100" y="3350" width="600" height="300" rx="30" fill="#6A8D92" fill-opacity="0.1"/>
+  <text x="140" y="3410" fill="#6A8D92" font-family="Inter" font-size="24" font-weight="bold">Любимая музыка</text>
+  <rect x="140" y="3520" width="520" height="10" rx="5" fill="#6A8D92" fill-opacity="0.2"/>
+  <rect x="140" y="3520" width="200" height="10" rx="5" fill="#6A8D92"/>
+  <circle cx="340" cy="3525" r="10" fill="#D8A697"/>
+  <text fill="#2C2F33" font-family="Inter" font-size="16" font-style="italic"><tspan x="180" y="3600">[Плеер с треком]</tspan></text>
+
+  <rect x="740" y="3350" width="600" height="300" rx="30" fill="#2C2F33"/>
+  <text x="960" y="3510" fill="white" font-family="Inter" font-size="20">Play Video</text>
+  <text fill="white" font-family="Inter" font-size="16" font-style="italic"><tspan x="940" y="3600">[Видеоплеер]</tspan></text>
+
+  <text fill="#2C2F33" font-family="Inter" font-size="40" font-weight="bold"><tspan x="100" y="3800">Отзывы</tspan></text>
+  
+  <rect x="100" y="3850" width="600" height="400" rx="30" fill="white"/> <circle cx="150" cy="3900" r="30" fill="#D9D9D9"/>
+  <text fill="#2C2F33" font-family="Inter" font-size="20" font-weight="bold"><tspan x="200" y="3895">Николай (Ментор)</tspan></text>
+  <text fill="#6A8D92" font-family="Inter" font-size="14"><tspan x="200" y="3915">20.05.2026</tspan></text>
+  <text x="140" y="3960" fill="#D8A697" font-size="24">★★★★★</text>
+  <text x="140" y="4010" fill="#2C2F33" font-family="Inter" font-size="18" line-height="1.5">
+    <tspan x="140" y="4010">"Удивительно, как быстро Вероника осваивает</tspan>
+    <tspan x="140" y="4035">новые технологии. С таким подходом</tspan>
+    <tspan x="140" y="4060">её ждет отличное будущее в IT!"</tspan>
+  </text>
+  <text fill="#2C2F33" font-family="Inter" font-size="14" font-style="italic"><tspan x="150" y="3940">[Фото]</tspan></text>
+  
+  <rect x="740" y="3850" width="600" height="400" rx="30" fill="white"/> <circle cx="790" cy="3900" r="30" fill="#D9D9D9"/>
+  <text fill="#2C2F33" font-family="Inter" font-size="20" font-weight="bold"><tspan x="840" y="3895">Анна (Коллега)</tspan></text>
+  <text fill="#6A8D92" font-family="Inter" font-size="14"><tspan x="840" y="3915">15.05.2026</tspan></text>
+  <text x="780" y="3960" fill="#D8A697" font-size="24">★★★★★</text>
+  <text x="780" y="4010" fill="#2C2F33" font-family="Inter" font-size="18" line-height="1.5">
+    <tspan x="780" y="4010">"Дизайн сайта просто потрясающий,</tspan>
+    <tspan x="780" y="4035">очень мягкие и приятные цвета.</tspan>
+    <tspan x="780" y="4060">Талант заметен сразу!"</tspan>
+  </text>
+  <text fill="#2C2F33" font-family="Inter" font-size="14" font-style="italic"><tspan x="790" y="3940">[Фото]</tspan></text>
+
+  <text fill="#2C2F33" font-family="Inter" font-size="40" font-weight="bold"><tspan x="100" y="4300">Давай свяжемся</tspan></text>
+  <rect x="100" y="4350" width="1240" height="700" rx="40" fill="white" fill-opacity="0.8"/>
+  
+  <rect x="150" y="4400" width="540" height="60" rx="15" fill="#F1F4F7"/>
+  <text x="170" y="4435" fill="#6A8D92">Имя</text>
+  
+  <rect x="750" y="4400" width="540" height="60" rx="15" fill="#F1F4F7"/>
+  <text x="770" y="4435" fill="#6A8D92">Телефон</text>
+
+  <rect x="150" y="4480" width="20" height="20" rx="5" fill="#D8A697"/>
+  <text x="185" y="4496" fill="#2C2F33">Оставить анонимно</text>
+
+  <text x="150" y="4550" fill="#2C2F33" font-family="Inter" font-size="18" font-weight="bold"><tspan x="150" y="4550">Выбери пол:</tspan></text>
+  <circle cx="160" cy="4585" r="10" stroke="#6A8D92" stroke-width="2"/>
+  <text x="180" y="4592" fill="#2C2F33">Мужской</text>
+  <circle cx="300" cy="4585" r="10" stroke="#6A8D92" stroke-width="2"/>
+  <text x="320" y="4592" fill="#2C2F33">Женский</text>
+  
+  <rect x="150" y="4650" width="1140" height="60" rx="15" fill="#F1F4F7"/>
+  <text x="170" y="4687" fill="#6A8D92">Откуда узнали обо мне? (Выпадающий список)</text>
+
+  <rect x="150" y="4740" width="1140" height="150" rx="15" fill="#F1F4F7"/>
+  <text x="170" y="4775" fill="#6A8D92">Твое сообщение...</text>
+
+  <rect x="520" y="4950" width="400" height="60" rx="30" fill="#6A8D92"/>
+  <text x="670" y="4987" fill="white" font-weight="bold" font-size="20">Отправить</text>
+
+  <rect y="5100" width="1440" height="100" fill="#2C2F33"/>
+  <text fill="white" font-family="Inter" font-size="16">
+    <tspan x="100" y="5160">© 2026 Кожемякина Вероника. Все права защищены.</tspan>
+  </text>
+  <circle cx="1300" cy="5155" r="20" fill="#6A8D92"/>
+  <text x="1292" y="5162" fill="white" font-size="16">TG</text>
+</svg>
