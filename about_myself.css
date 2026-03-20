@@ -6,7 +6,6 @@
 
 .indent {
     width: 65vw;
-    max-width: 1652px;
     margin: 0 auto;
     justify-content: center;
     max-width: 1248px;
@@ -76,13 +75,16 @@
 	border: 1px solid #4c51f9;
 	outline: none;
 }
+
 .button:hover {
 	transition: all 0.2s;
 	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
+
 .button:active {
 	background-color: #808080;
 }
+
 .button:disabled {
 	background-color: #eee;
 	border-color: #eee;
