@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.indent {
+    justify-content: center;
+
+    width: 65vw;
+    max-width: 1248px;
+
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height:6vh;
+
+    margin-top: 35px;
+}
+
+.header_nav
+{
+    width: 51.21vw;
+
+    text-decoration: none;
+}
+
+.header_menu-list {
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style: none; /* убирает маркеры */ 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;    
+}
+
+.header_link {
+    font-size: 18px;
+    color: inherit; /* наследует цвет родителя */
+    text-decoration: none;
+}
+
+.header_link:hover {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.button
+{    
+    display: inline-block;
+    align-self:stretch;
+
+    padding: 0 25px;    
+    box-sizing: border-box;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    text-decoration: none;
+	user-select: none;
+
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #6A8D92;
+    border-radius: 50px; 
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+    cursor: pointer;
+    appearance: none;
+	touch-action: manipulation;  
+    vertical-align: top; 
+
+	transition: box-shadow 0.2s;
+}
+
+.button:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+
+.button:hover {
+    box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+	transition: all 0.2s;
+}
+
+.button:active {
+	background-color: #808080;
+}
+
+.button:disabled {
+	color: #444;
+	background-color: #eee;
+	border-color: #eee;
+	cursor: not-allowed;
+}
+
