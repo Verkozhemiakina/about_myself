@@ -1,33 +1,39 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 .indent {
-    width: 65vw;
-    margin: 0 auto;
     justify-content: center;
+
+    width: 65vw;
     max-width: 1248px;
+
+    margin: 0 auto;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 35px;
+    justify-content: space-between;
+
     height:6vh;
+
+    margin-top: 35px;
 }
 
 .header_nav
 {
-    text-decoration: none;
     width: 51.21vw;
+
+    text-decoration: none;
 }
 
 .header_menu-list {
     display: flex;
     justify-content: space-evenly;
+
     list-style: none; /* убирает маркеры */ 
 }
 
@@ -38,36 +44,40 @@
 }
 
 .header_link {
-    text-decoration: none;
-    color: inherit; /* наследует цвет родителя */
     font-size: 18px;
+    color: inherit; /* наследует цвет родителя */
+    text-decoration: none;
 }
+
 .header_link:hover {
-    text-decoration: underline;
     font-size: 24px;
+    text-decoration: underline;
 }
 
 .button
 {    
-    align-self:stretch;
-    height: auto;
     display: inline-block;
+    align-self:stretch;
+
+    padding: 0 25px;    
     box-sizing: border-box;
-    padding: 0 25px;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    text-decoration: none;
+	user-select: none;
+
+    background-color: #fff;
     outline: none;
     border: 1px solid #6A8D92;
     border-radius: 50px; 
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #444;
-    background-color: #fff;
     box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
     cursor: pointer;
-	user-select: none;
     appearance: none;
 	touch-action: manipulation;  
     vertical-align: top; 
+
 	transition: box-shadow 0.2s;
 }
 
@@ -77,8 +87,8 @@
 }
 
 .button:hover {
+    box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 	transition: all 0.2s;
-	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
 }
 
 .button:active {
@@ -86,8 +96,9 @@
 }
 
 .button:disabled {
+	color: #444;
 	background-color: #eee;
 	border-color: #eee;
-	color: #444;
 	cursor: not-allowed;
 }
+
