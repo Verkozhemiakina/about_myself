@@ -5,35 +5,61 @@
 }
 
 .indent {
-    
+    justify-content: center;
+
+    width: 65vw;
+    max-width: 1248px;
+
+    margin: 0 auto;
 }
 
 .header {
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height:3vw;  
+    min-height: 35px;
+    max-height: 64.8px;
+
+    margin-top: 2.8%; 
+
+    container-type: inline-size;
     
     
 }
 
 .logo {
-     
+    font-size: 1.9cqw;  
+    font-weight: 700;
+    line-height: 1.5;    
 }
 
 .header_nav
 {
-    
+    width: 51.21vw;
+
+    text-decoration: none;
 }
 
 .header_menu-list {
-   
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style: none; /* убирает маркеры */ 
 
 
 }
 .header_menu-item{
-   
+   width: 8.5%;
+    container-type: inline-size;
 }
 
 .header_link {
-    
+    font-family: 'Inter', sans-serif;
+    font-size: 23.9cqw; 
+    color: inherit; /* наследует цвет родителя */
+    text-decoration: none;
 }
 
 .header_link:hover {
@@ -44,7 +70,7 @@
 
 .header_button
 {    
-    /* display: inline-block;
+    display: inline-block;
     align-self:stretch;
 
     padding: 0 2%;    
@@ -52,7 +78,7 @@
 
     font-family: 'Inter', sans-serif;
     font-size: 1.3cqw; /* 1.12cqw */
-    /*font-weight: 00;
+    font-weight: 00;
     color: #000000;
     text-decoration: none;
 	user-select: none;
@@ -68,7 +94,7 @@
 	touch-action: manipulation;  
     vertical-align: top; 
 
-	transition: box-shadow 0.2s; */
+	transition: box-shadow 0.2s;
 }
 
 .button:focus-visible {
