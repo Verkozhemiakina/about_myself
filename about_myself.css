@@ -16,8 +16,7 @@
     align-items: center;
     justify-content: space-between;
 
-    height: min(3vw, 35px );  
-    
+    height: min(3vw, 35px );      
     margin-top: 2.8%; 
 
     container-type: inline-size;       
@@ -32,23 +31,20 @@
 .header_nav
 {
     width: min(100%, 981.44px);
-    /* width: 51.21vw; */
-
     text-decoration: none;
 }
 
 .header_menu-list {
     display: flex;
     justify-content: space-evenly;
-    list-style: none; /* убирает маркеры */ 
+    list-style: none; 
     container-type: inline-size;
-
 }
 
 .header_link {
+    color: inherit; 
     font-family: 'Inter', sans-serif;
     font-size: 2cqw; 
-    color: inherit; /* наследует цвет родителя */
     text-decoration: none;
 }
 
@@ -61,14 +57,14 @@
 {    
     display: inline-block;
     align-self:stretch;
-
-    padding: 0 2%;    
     box-sizing: border-box;
 
+    padding: 0 2%;    
+
+    color: #000000;
     font-family: 'Inter', sans-serif;
     font-size: 1.3cqw; 
     font-weight: 00;
-    color: #000000;
     text-decoration: none;
 	user-select: none;
     letter-spacing: 0.5px;
@@ -109,9 +105,7 @@
 
 .hero {
     display: flex;
-    margin-top: 8.01%; 
-                     
-    /* flex-wrap: nowrap; */
+    margin-top: 8.01%;     
 }
 
 .hero_content {
@@ -120,20 +114,18 @@
     width: min(57%, 710px);
     
     container-type: inline-size;
-
 }
 
-
 .hero_title {
-    margin-bottom: 2.8%; 
     margin-top: 11.26%; 
+    margin-bottom: 2.8%; 
     
     font-family: 'Inter', sans-serif;
     font-size: 7.88cqw; 
     font-weight: 700;
-    line-height: 1.5;   
-    
+    line-height: 1.5;       
 }
+
 .hero_title_second_color {
     color:#6A8D92 ;
     font-weight: 900;
@@ -147,12 +139,12 @@
     font-weight: 700;
     line-height: 1.5;    
 }
+
 .hero_description {
     display: flex;
     flex-direction: column;
-
-
 }
+
 .hero_text {
     margin-bottom: 2.8%;  
     
@@ -176,12 +168,10 @@
 .hero_image-wrapper {
     display: flex;
     justify-content:center;
-    width: min(43%, 538px);
-    
+    width: min(43%, 538px);    
 }
 
 .my_photo {
     width: 87%;
-    height: auto;
-    
+    height: auto;    
 }
