@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body class="indent">
@@ -29,66 +30,93 @@
     <main>
         <section class="hero">
             <div class="hero_content">
-                <h1 class="hero_title"> 
+                <h1 class="hero_title">
                     <span class="hero_title_first_color">Привет, я будущий </span>
                     <span class="hero_title_second_color">фронтенд-разработчик</span>
                 </h1>
                 <h2 class="hero_subtitle">Давай знакомиться!</h2>
                 <div class="hero_description">
-                    <p class="hero_text">Я, Кожемякина Вероника, рада видеть Вас здесь! <br> Сейчас я изучаю html и css. 
+                    <p class="hero_text">Я, Кожемякина Вероника, рада видеть Вас здесь! <br> Сейчас я изучаю html и css.
                         Добро пожаловать на мою страницу!</p>
                     <p class="hero_note">(P.S. Я создала ее сама)</p>
-                </div> 
+                </div>
             </div>
             <div class="hero_image-wrapper">
                 <img class="my_photo" src="/imgs/My photo.jpeg" alt="Моя мордашка">
             </div>
         </section>
 
-        <!-- <section class="skills">
+        <section class="skills">
             <h2 class="skills_title">Что я уже умею:</h2>
-            <div class="cards">
-                <article class="cards_item">
-                    <h3>Linux</h3>
-                    <img src="/imgs/linux.ico" alt="Linux icon" class="cards_icon">
-                    <p>Уверенно работаю в терминале, управляю правами доступа и пакетами в Ubuntu.</p>
+            <div class="skills_cards">
+                <article class="skills_card_item">
+                    <div class="skills_card_header">
+                        <div class="skills_icon-container">
+                            <i class="skills_icon fa-brands fa-linux"></i>
+                        </div>
+                        <h3 class="skills_card_name">Linux</h3>
+                    </div>
+                    <p class="skills_card_description">Уверенно работаю в терминале, управляю правами доступа и пакетами
+                        в Ubuntu.</p>
                 </article>
-                <article class="cards_item">
-                    <h3 class="cards_name">Git</h3>
-                    <img src="/imgs/git.ico" alt="Git icon" class="cards_icon">
-                    <p class="cards_description">Умею фиксировать изменения через коммиты и работать с ветками в
+                <article class="skills_card_item">
+                    <div class="skills_card_header">
+                        <div class="skills_icon-container">
+                            <i class="skills_icon fa-brands fa-git-alt"></i>
+                        </div>
+                        <h3 class="skills_card_name">Git</h3>
+                    </div>
+                    <p class="skills_card_description">Умею фиксировать изменения через коммиты и работать с ветками в
                         проекте.</p>
                 </article>
-
-                <article class="cards_item">
-                    <h3 class="cards_name">Github</h3>
-                    <img src="/imgs/github.ico" alt="Github icon" class="cards_icon">
-                    <p class="cards_description">Публикую свои репозитории и использую GitHub Pages для хостинга
+                <article class="skills_card_item">
+                    <div class="skills_card_header">
+                        <div class="skills_icon-container">
+                            <i class="skills_icon fa-brands fa-github"></i>
+                        </div>
+                        <h3 class="skills_card_name">Github</h3>
+                    </div>
+                    <p class="skills_card_description">Публикую свои репозитории и использую GitHub Pages для хостинга
                         сайтов.</p>
                 </article>
 
-                <article class="cards_item">
-                    <h3 class="cards_name">HTML5</h3>
-                    <img src="/imgs/icon_html.png" alt="HTML5 icon" class="cards_icon">
-                    <p class="cards_description">Создаю правильную семантическую структуру страниц для лучшего SEO.</p>
-                </article>
 
-                <article class="cards_item">
-                    <h3 class="cards_name">CSS3</h3>
-                    <img src="/imgs/icon_css.png" alt="CSS3 icon" class="cards_icon">
-                    <p class="cards_description">Стилизую элементы, работаю с Flexbox и создаю плавные анимации.</p>
+                <article class="skills_card_item">
+                    <div class="skills_card_header">
+                        <div class="skills_icon-container">
+                            <i class="skills_icon fa-brands fa-html5"></i>
+                        </div>
+                        <h3 class="skills_card_name">HTML5</h3>
+                    </div>
+                    <p class="skills_card_description">Создаю правильную семантическую структуру страниц для лучшего SEO.
+                    </p>
                 </article>
-
-                <article class="cards_item">
-                    <h3 class="cards_name">Адаптивность</h3>
-                    <img src="/imgs/icon_adaptive.png" alt="Adaptive icon" class="cards_icon">
-                    <p class="cards_description">Делаю так, чтобы сайт одинаково хорошо выглядел и на iPhone, и на
+                <article class="skills_card_item">
+                    <div class="skills_card_header">
+                        <div class="skills_icon-container">
+                            <i class="skills_icon fa-brands fa-css3-alt"></i>
+                        </div>
+                        <h3 class="skills_card_name">CSS3</h3>
+                    </div>
+                    <p class="skills_card_description">Стилизую элементы, работаю с Flexbox и создаю плавные анимации.</p>
+                </article>
+                <article class="skills_card_item">
+                    <div class="skills_card_header">
+                        <div class="skills_icon-container">
+                            <span class="fa-layers fa-fw" style="font-size: 3em; display: block; margin: 0 auto 15px;">
+                                <i class="skills_icon fa-solid fa-desktop"></i>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </span>
+                        </div>
+                        <h3 class="skills_card_name">Адаптивность</h3>
+                    </div>
+                    <p class="skills_card_description">Делаю так, чтобы сайт одинаково хорошо выглядел и на iPhone, и на
                         мониторе.</p>
                 </article>
             </div>
         </section>
 
-        <section class="plan">
+        <!-- <section class="plan">
             <h2 class="plan_title">Мой график обучения</h2>
 
             <table class="plan_table table">
@@ -245,9 +273,9 @@
                 <button type="submit" class="form__button button">Отправить</button>
 
             </form>
-        </section> -->
-    </main>
-    <!-- <footer>
+        </section>
+    </main> -->
+        <!-- <footer>
         <p>© 2026 Кожемякина Вероника. Все права защищены</p>
         <a href="https://web.telegram.org/k/#@ver_kozhemiakina" class="footer__social-link">
             <img src="/imgs/tg.ico" alt="Telegram" class="footer__icon">
