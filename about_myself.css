@@ -9,6 +9,8 @@
     width: min(100%, 1288px);
     margin: 0 auto;
     padding: 0 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: rgba(247, 234, 223, 1);
 }
 
 .header {
@@ -24,6 +26,7 @@
 
 .logo {
     font-size: 1.9cqw;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
     line-height: 1.5;
 }
@@ -100,6 +103,7 @@
     border-color: #eee;
     cursor: not-allowed;
 }
+
 /* ====================================================== hero =================================================================== */
 .hero {
     display: flex;
@@ -173,7 +177,24 @@
     width: 87%;
     height: auto;
     border-radius: 20px;
+    border-radius: 46% 54% 50% 50% / 40% 38% 62% 60%;
+    /* filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.3)); */
+    box-shadow: 10px 10px 30px rgba(74, 58, 46, 0.8);
+    transform: rotate(-2deg);
+
+
 }
+
+.my_photo:hover {
+    transform: scale(1.04);
+
+    /* Форма камня очень медленно и едва заметно меняется */
+    border-radius: 52% 48% 45% 55% / 36% 45% 55% 64%;
+
+    /* Тень становится глубже, усиливая эффект приближения */
+    box-shadow: 15px 25px 45px rgba(74, 58, 46, 0.9);
+}
+
 /* =============================== cards ================================================================================== */
 .skills {
     display: flex;
@@ -196,14 +217,15 @@
 .skills_card_item {
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* чтобы скрыть выходящий за границы перелив */
+    overflow: hidden;
+    /* чтобы скрыть выходящий за границы перелив */
     position: relative;
     padding: 25px 30px;
 
     background-color: rgba(253, 246, 239, 0.95);
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skills_card_item:hover {
@@ -213,7 +235,8 @@
 
 .skills_card_item::before {
     position: absolute;
-    z-index: 1; /* чтобы перелив был поверх контента, но не мешал кликам */
+    z-index: 1;
+    /* чтобы перелив был поверх контента, но не мешал кликам */
     top: 0;
     left: -100%;
     width: 50%;
@@ -309,3 +332,262 @@
     color: #EFF3F5;
 }
 
+/* =============================================================== wait to it =========================================================================================== */
+
+.way-to-it {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.01%;
+}
+
+.way_title_contener {
+    padding: 20px 0;
+}
+
+.way_title_text {
+    font-size: 31.95px;
+}
+
+.way_body {
+    display: flex;
+    justify-content: start;
+}
+
+.way_right_lane {
+    position: relative;
+    width: 30.28%;
+}
+
+.way_left_lane {
+    position: relative;
+    width: 50px;
+}
+
+.way_left_lane::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 50px;
+    left: 20%;
+    width: 5px;
+    background-color: rgba(232, 217, 201, 1);
+    border-radius: 2px;
+    transform: translateX(-50%);
+}
+
+.way_right_lane::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 50px;
+    left: 100%;
+    width: 5px;
+    background-color: rgba(232, 217, 201, 1);
+    border-radius: 2px;
+    transform: translateX(-50%);
+}
+
+.way_information_blocks {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-left: 20px;
+}
+
+.way_block {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+    border-radius: 30px;
+    position: relative;
+      /* anchor-name: --my-header; */
+}
+
+.way_block::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    width: 60px;
+    height: 5px;
+    background-color: rgba(232, 217, 201, 1);
+    transform: translateY(-50%);
+}
+
+.way_block::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 60px);
+    width: 25px;
+    height: 25px;
+    background-color: rgba(232, 217, 201, 1);
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+.way_header_block {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  
+}
+
+.way_title_block {
+    font-size: 16px;
+    color: rgba(63, 42, 30, 1);
+    background-color: rgba(232, 217, 201, 1);
+    border-radius: 15px;
+    padding: 4px 16px;
+    position: relative;
+}
+
+.way_header_line {
+    display: flex;
+    height: 20px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.way_header_line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    left: 10%;
+    background: linear-gradient(to right, rgba(232, 217, 201, 1), rgb(252, 234, 234));
+}
+
+.way_story {
+    font-size: 16px;
+    color: rgba(74, 58, 46, 1);
+    line-height: 1.625;
+    text-align: justify;
+}
+
+.way_cat {
+    position: relative;
+}
+
+.cat1::after,
+.cat2::after,
+.cat3::after,
+.cat4::after {
+    content: '';
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.cat1::after {
+    top: -216%;
+    left: 70%;
+    width: 150px;
+    height: 150px;
+    background-image: url(/imgs/cat1.png);
+}
+
+.cat2::after {
+    top: -178%;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+    background-image: url(/imgs/cat2.png);
+}
+
+.cat3::after {
+    top: -100%;
+    left: 80%;
+    width: 150px;
+    height: 150px;
+    background-image: url(/imgs/cat3.png);
+}
+
+.cat4::after {
+    top: 210%; 
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url(/imgs/cat4.png);
+}
+
+.way_title_add {
+    padding: 20px 0;
+    font-size: 31.95px;
+}
+
+.way_code_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: rgba(232, 217, 201, 1);
+    border: 1px solid rgba(63, 42, 30, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* 2. Шапка (название языка + кнопка) */
+.way_code_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(63, 42, 30, 0.05);
+    border-bottom: 1px solid rgba(63, 42, 30, 0.1);
+    /* Линия-разделитель */
+}
+
+/* Название языка программирования */
+.way_code_lang {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(63, 42, 30, 0.6);
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+/* 3. Кнопка копирования */
+.way_copy_btn {
+    background: rgba(63, 42, 30, 0.07);
+    border: none;
+    border-radius: 6px;
+    padding: 5px 12px;
+    color: rgba(63, 42, 30, 0.8);
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.way_copy_btn:hover {
+    background: rgba(63, 42, 30, 0.15);
+}
+
+.way_copy_btn:active {
+    transform: scale(0.95);
+    /* Эффект нажатия */
+}
+
+/* 4. Сам блок с кодом */
+.way_block_code {
+
+    padding: 20px;
+    color: rgba(63, 42, 30, 1);
+    font-size: 15px;
+    line-height: 1.5;
+    overflow-x: auto;
+    /* Скролл, если код широкий */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+.way_icon_copy {
+    color: rgba(63, 42, 30, 0.6);
+}
