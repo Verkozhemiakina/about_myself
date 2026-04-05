@@ -447,49 +447,65 @@
             </div>
         </section>
 
+        <section class="feedback">
+            <h2 class="feedback_title">Форма обратной связи:</h2>
+            <form class="feedback_form">
+                <div class="feedback_form_center">
+                    <p class="feedback_definition">Здесь вы можете оставить свой хейт:</p>
+                    <div class="feedback_data_fields">
+                        <div class="feedback_no-data">
+                            <input type="checkbox" class="feedback_checkbox_no-data">
+                            <label class="feedback_anonymity_signature">Оставить анонимно</label>
+                        </div>
+                        <div class="feedback_data">
+                            <input class="feedback_data_field" type="text" placeholder="Имя">
+                            <input class="feedback_data_field" type="tel" placeholder="Телефон">
+                        </div>
+                    </div>
+                    <div class="feedback_gender-selection">
+                        <label class="feedback_gender_title">Выбери пол:</label>
+                        <div class="feedback_gender_tumbler">
+                            <div class="feedback_gender_radios">
+                                <input type="radio" name="gender" id="male" class="feedback_gender_radio"> <label
+                                    for="male">Мужской</label>
+                            </div>
+                            <div class="feedback_gender_radios">
+                                <input type="radio" name="gender" id="female" class="feedback_gender_radio"> <label
+                                    for="female">Женский</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback_aware">
+                        <select class="feedback_field_select">
+                            <option value="" disabled selected hidden>Откуда узнали обо мне?</option>
+                            <option value="1">Инстаграм</option>
+                            <option value="2">Знакомы лично</option>
+                            <option value="3">Слежу за тобой (я сталкер)</option>
+                            <option value="4">Спам-ссылка</option>
+                        </select>
+                    </div>
+                    <textarea class="feedback_message" rows="5" placeholder="Место для хейта"></textarea>
+                    <div class="feedback_submit_group">
+                        <!-- 1. Скрытый переключатель -->
+                        <input type="checkbox" id="modal-toggle" class="feedback_modal_checkbox" style="display:none;">
 
+                        <!-- 2. Кнопка (теперь это Label, который "нажимает" на чекбокс) -->
+                        <label for="modal-toggle" class="feedback_button">Отправить</label>
 
-        <!-- <section class="contact-form">
-            <h2 class="contact-form__title">Форма обратной связи:</h2>
-            <p class="contact-form-definition">Здесь вы можете оставить свой отзыв, предложения о сотрудничестве и даже
-                хейт</p>
-            <form class="form">
-                <div class="form-group">
-                    <label class="form__label">Ваше имя:</label>
-                    <input type="text">
-                    <label class="form_label">Анонимный отзыв</label>
-                    <input type="checkbox">
+                        <!-- 3. Само окно (оверлей) -->
+                        <div class="feedback_modal_overlay">
+                            <div class="feedback_modal_content">
+                                <p>Ха-ха-ха, это все голишь CSS код! 😈</p>
+                                <label for="modal-toggle" class="feedback_close_button">Закрыть</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button type="submit" class="feedback_button">Отправить</button> -->
                 </div>
-                <div class="form__group">
-                    <label class="form__label">Ваш телефон:</label>
-                    <input type="tel">
-                </div>
-                <div class="form__group">
-                    <label class="form__label">Пол:</label>
-                    <input type="radio" name="gender" id="male" class="form__radio"> <label for="male">Муж</label>
-                    <input type="radio" name="gender" id="female" class="form__radio"> <label for="female">Жен</label>
-                </div>
-
-                <div class="form__group">
-                    <label class="form__label">Откуда узнали обо мне?</label>
-                    <select class="form__select">
-                        <option>Инстаграм</option>
-                        <option>Знакомы лично</option>
-                        <option>Слежу за тобой (я сталкер)</option>
-                        <option>Спам-ссылка</option>
-                    </select>
-                </div>
-
-                <div class="form__group">
-                    <label class="form__label">Сообщение:</label>
-                    <textarea class="form__textarea" rows="5"></textarea>
-                </div>
-                <button type="submit" class="form__button button">Отправить</button>
-
             </form>
         </section>
-    </main> -->
-        <!-- <footer>
+    </main>
+    <!--<footer>
         <p>© 2026 Кожемякина Вероника. Все права защищены</p>
         <a href="https://web.telegram.org/k/#@ver_kozhemiakina" class="footer__social-link">
             <img src="/imgs/tg.ico" alt="Telegram" class="footer__icon">

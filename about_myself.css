@@ -165,29 +165,17 @@
 .hero_image-wrapper {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     width: min(43%, 538px);
 }
 
 .my_photo {
-    width: 87%;
+    width: 82%;
     height: auto;
-    border-radius: 20px;
-    border-radius: 46% 54% 50% 50% / 40% 38% 62% 60%;
-    /* filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.3)); */
+    display: block;
     box-shadow: 10px 10px 30px rgba(74, 58, 46, 0.8);
-    transform: rotate(-2deg);
-
-
-}
-
-.my_photo:hover {
-    transform: scale(1.04);
-
-    /* Форма камня очень медленно и едва заметно меняется */
-    border-radius: 52% 48% 45% 55% / 36% 45% 55% 64%;
-
-    /* Тень становится глубже, усиливая эффект приближения */
-    box-shadow: 15px 25px 45px rgba(74, 58, 46, 0.9);
+    border-radius: 10%;
+    /* transform: rotate(-2deg); */
 }
 
 /* =============================== cards ================================================================================== */
@@ -559,12 +547,12 @@
 
 .way_block::before {
     right: 100%;
-    width: 60px;
+    width: 7.5%;
     height: 5px;
 }
 
 .way_block::after {
-    right: calc(100% + 60px);
+    right: calc(100% + 7.5%);
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -736,6 +724,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 8.01%;
+    container-type: inline-size;
 }
 
 .hobbies_title {
@@ -749,7 +738,7 @@
 }
 
 .hobbies_block {
-    width: 48%;
+    width: min(48%, 630px);
     padding: 40px;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.6);
@@ -757,8 +746,8 @@
 }
 
 .hobbies_block_second_row {
-    width: 30%;
-    padding: 40px;
+    width: min(30%, 375px);
+    padding: 3%;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 20px;
@@ -786,8 +775,9 @@
 
 .hobbies_title_block {
     margin-left: 20px;
+    /* 1.76cqw  */
     padding: 10px, 20px;
-    font-size: 22px;
+    font-size: min(1.7cqw, 22px);
 }
 
 .hobbies_block_content {
@@ -799,7 +789,8 @@
 }
 
 .hobbies_description {
-    font-size: 16px;
+    font-size: min(1.28cqw, 16px);
+    /* 1.28cqw  */
     text-align: justify;
 }
 
@@ -837,6 +828,7 @@
     padding: 20px 30px;
     background-color: rgba(238, 208, 183, 0.3);
     border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(106, 141, 146, 0.5);
 }
 
 .review_card_header {
@@ -866,4 +858,243 @@
     display: block;
     color: #9D9E90;
     margin-bottom: 15px;
+}
+
+/* ================================================================================================================ */
+.feedback {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.01%;
+}
+
+.feedback_title {
+    padding-bottom: 20px;
+    font-size: 31.95px;
+}
+
+.feedback_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(210 174 142 / 0.2);
+    border-color: 1px solid rgb(146 157 145 / 0.4);
+    border-radius: 2.5rem;
+    box-shadow: 0 4px 15px rgba(106, 141, 146, 0.5);
+    padding: 30px 80px;
+}
+
+.feedback_form_center {
+    width: min(100%, 653px);
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback_definition {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.feedback_data_fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback_data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.feedback_data_field {
+    width: 48%;
+    color: #4a4a4a;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 15px 20px;
+    border: 1px solid rgba(109, 58, 58, 0.7);
+    outline: none;
+    background-color: rgba(109, 58, 58, 0.1);
+}
+
+.feedback_no-data {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.feedback_checkbox_no-data {
+    appearance: none;
+    border-radius: 20%;
+    border: 1px solid rgba(109, 58, 58, 0.7);
+    outline: none;
+    width: 20px;
+    cursor: pointer;
+    display: inline-grid;
+    place-content: center;
+    box-shadow: 0 0 5px rgba(109, 58, 58, 0.7);
+}
+
+.feedback_checkbox_no-data::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    transform: scale(0);
+    transition: 0.1s transform ease-in-out;
+    background-color: rgba(109, 58, 58, 0.7);
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+.feedback_checkbox_no-data:checked::before {
+    transform: scale(1);
+}
+
+.feedback_data_fields:has(.feedback_checkbox_no-data:checked) .feedback_data {
+    opacity: 0.4;
+    /* блок бледным */
+    pointer-events: none;
+    /* Запрещаем клики мышкой */
+    user-select: none;
+    /* Запрещаем выделение текста */
+}
+
+.feedback_data_fields:has(.feedback_checkbox_no-data:checked) .feedback_data_field {
+    cursor: not-allowed;
+    background-color: #f9f9f9;
+}
+
+.feedback_gender-selection {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.feedback_gender_title {
+    padding-bottom: 10px;
+}
+
+.feedback_gender_tumbler {
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.feedback_gender_radios {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.feedback_gender_radio {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgba(109, 58, 58, 0.7);
+    box-shadow: 0 0 5px rgba(109, 58, 58, 0.7);
+    display: inline-grid;
+    place-content: center;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.feedback_gender_radio::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.1s transform ease-in-out;
+    background-color: rgba(109, 58, 58, 0.7);
+}
+
+.feedback_gender_radio:checked::before {
+    transform: scale(1);
+}
+
+.feedback_aware {
+    display: flex;
+}
+
+.feedback_field_select {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(109, 58, 58, 0.1);
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #4a4a4a;
+    outline: none;
+    border: 1px solid rgba(109, 58, 58, 0.7);
+}
+
+.feedback_message {
+    max-width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(109, 58, 58, 0.1);
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #4a4a4a;
+    outline: none;
+    border: 1px solid rgba(109, 58, 58, 0.7);
+}
+
+.feedback_button {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(109, 58, 58, 0.1);
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #4a4a4a;
+    border: 1px solid rgba(109, 58, 58, 0.7);
+}
+
+.feedback_submit_group {
+    width: 100%;
+}
+
+/* По умолчанию окно скрыто */
+.feedback_modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    /* Скрываем */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Если чекбокс нажат — показываем окно */
+.feedback_modal_checkbox:checked~.feedback_modal_overlay {
+    display: flex;
+}
+
+.feedback_modal_content {
+    background: rgb(231, 212, 203);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid rgba(53, 31, 11, 0.7);
+}
+
+.feedback_close_button {
+    display: inline-block;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #4a4a4a;
+    text-decoration: underline;
 }
