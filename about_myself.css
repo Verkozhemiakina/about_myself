@@ -1084,8 +1084,8 @@
 }
 
 .feedback_modal_content {
-    background: rgb(231, 212, 203);
     padding: 30px;
+    background: rgb(231, 212, 203);
     border-radius: 20px;
     text-align: center;
     border: 1px solid rgba(53, 31, 11, 0.7);
@@ -1097,4 +1097,28 @@
     cursor: pointer;
     color: #4a4a4a;
     text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.footer_text {
+    margin-right: 10px;
+}
+
+.footer_icon {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #4a4a4a;
+    list-style: none;
+}
+
+.footer_git-link,
+.footer_tg-link:visited {
+    color: #4a4a4a;
 }
