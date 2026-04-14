@@ -1,0 +1,129 @@
+@media (min-width: 481px) and (max-width: 768px) {
+    .indent {
+        width: 100%;
+    }
+
+    .way_code_lang {
+        font-size: 12px;
+    }
+
+    .plan_sticker_skill {
+        font-size: 13.5px;
+    }
+
+    .way_block_code,
+    .hobbies_description {
+        font-size: 13px;
+        text-align: start;
+    }
+
+    .hero_text,
+    .hero_note,
+    .header_link,
+    .header_button,
+    .way_story,
+    .hobbies_title_block,
+    .feedback_form_center,
+    .footer,
+    .review_date,
+    .review_content,
+    .skills_card_description {
+        font-size: 14px;
+    }
+
+    .review_user-name {
+        font-size: 16px;
+    }
+
+    .skills_card_name {
+        font-size: 18px;
+    }
+
+    .paper-sticker::after {
+        font-size: 80%;
+    }
+
+    .way_information_blocks {
+        width: 92%;
+        margin-left: 20px;
+    }
+
+    .way_right_line {
+        width: 3%;
+    }
+
+    .way_left_line {
+        width: 4%;
+    }
+
+    .way_block::after {
+        right: calc(100% + 6.5%);
+    }
+
+    .skills_cards {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 15px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .skills_cards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .skills_card_item {
+        flex: 0 0 300px;
+        scroll-snap-align: center;
+    }
+
+    .skills_card_description {
+        display: flex;
+        align-items: center;
+    }
+
+    .way_block {
+        padding: 30px;
+    }
+
+    .hobbies_content {
+        width: 98%;
+        height: 440px;
+        margin-top: 20px;
+    }
+
+    .hobbies_block {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    .hobbies_block_second_row {
+        width: 32%;
+        padding: 15px;
+    }
+
+    .review_card {
+        width: 48%;
+        padding: 15px 20px;
+    }
+
+    .review_avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .review_user {
+        margin: 0 10px;
+    }
+
+    .feedback_form {
+        padding: 30px 0;
+    }
+
+    .feedback_form_center {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+}
